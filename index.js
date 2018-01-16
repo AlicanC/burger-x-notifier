@@ -1,3 +1,5 @@
+#!/usr/bin/env node
+
 const fetch = require("node-fetch");
 const notifier = require("node-notifier");
 const opn = require("opn");
