@@ -1,0 +1,18 @@
+{
+  "name": "burger-x-notifier",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Alican Çubukçuoğlu <alicancubukcuoglu@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "bin": {
+    "burger-x-notifier": "./index.js"
+  },
+  "dependencies": {
+    "node-fetch": "^1.7.3",
+    "node-notifier": "^5.2.1",
+    "opn": "^5.2.0"
+  }
+}
